@@ -28,3 +28,5 @@ server.listen(port, () => {
   console.log("Server has been started at port " + port);
   console.log("Press Ctrl+C to exit");
 });
+
+module.exports = server;
