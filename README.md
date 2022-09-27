@@ -19,7 +19,7 @@ To add/remove an endpoint all you have to do is add/remove a new key in the `db.
 **`db.json:`**
 ```
 {
-	// this is an endpoint
+	http://localhost:3000/fruits ->
 	"fruits": [
 		{
 		 "id": 1,
@@ -31,7 +31,7 @@ To add/remove an endpoint all you have to do is add/remove a new key in the `db.
 		}
 	],
 	
-	// this is another endpoint
+	http://localhost:3000/colors ->
 	"colors": [
 		{
 		 "id": 1,
