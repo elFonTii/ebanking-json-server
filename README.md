@@ -1,4 +1,4 @@
-# ebanking-json-server repository
+# ebanking-json-server repository 
 
 Simple **API**. that's handle requests and return data without the necessity of a database, this uses filesystem to write into a `db.json` file.
 
