@@ -1,4 +1,4 @@
-# ebanking-json-server repository 
+# ebanking-json-server repository
 
 Simple **API**. that's handle requests and return data without the necessity of a database, this uses filesystem to write into a `db.json` file.
 
@@ -23,11 +23,11 @@ To add/remove an endpoint all you have to do is add/remove a new key in the `db.
 **`db.json:`**
 ```
 {
- // this is an endpoint
- "fruits": [
-	    {
-	     "id": 1,
-	"name": "Apple"
+	// this is an endpoint
+	"fruits": [
+		{
+		 "id": 1,
+		 "name": "Apple"
 		},
 		{
 		 "id": 2
