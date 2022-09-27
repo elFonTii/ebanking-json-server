@@ -17,7 +17,7 @@ In this section we are going to introduce how you can add, remove o update endpo
 To add/remove an endpoint all you have to do is add/remove a new key in the `db.json` file respectively
 
 **`db.json:`**
-```
+```json
 {
 	http://localhost:3000/fruits ->
 	"fruits": [
@@ -67,7 +67,7 @@ This application supports the following methods: `GET` `POST` `PUT` `PATCH` `DEL
 Here's an example using **TypeScript** and **axios** of how you can make request to modify data.
 
 
-```
+```typescript
 const addFruit = () => {
   axios
     .post('http://localhost:3000/fruits', { id: "3,", name: "Mango" })
