@@ -53,12 +53,13 @@ This application supports the following methods: `GET` `POST` `PUT` `PATCH` `DEL
 
 `GET http://localhost:8080/$endpoint` where *$endpoint* means the endpoint where you want to fetch data.
 
-*Headers* 
-**`Content-Type: Application/JSON`**
-
 `POST http://localhost:8080/$endpoint` where *$endpoint* means the endpoint where you want to fetch data.
 
+
 `POST` `PUT` and `PATCH` request need to receive data from the `body` of the request, depending on which type of request do you want to do.
+Also these requests needs to set the next header:
+*Headers* 
+**`Content-Type: Application/JSON`**
 
 
 
