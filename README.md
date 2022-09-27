@@ -7,11 +7,7 @@ Simple **API**. that's handle requests and return data without the necessity of 
 
 This project was bootstrapped using **yarn**, so to install dependencies run `$yarn install`
 ## dotenv / .env file
-The `.env` file only have one key called **PORT** its value will depend on which port do you want to initializate the app.
-
-## Create files and folders
-
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+The `.env` file only have one key called **PORT** its value will depend on which port do you want to initializate the app (numerical value)
 
 # Managing endpoints
 
